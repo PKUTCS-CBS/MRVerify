@@ -61,16 +61,16 @@ The standard installation procedure requires Coq 8.8.0. If you do not have it ye
 To install the latest development version of our tool, use this:
 
 ```
-  git clone https://github.com/BinksZhang/CBS-Verification.git
-  cd CBS-Verification
+  git clone https://github.com/PKUTCS-CSS/MRVerify.git
+  cd MRVerify
   make
 ```
 
-**Note** : No Chinese is allowed in the file path!
+**Note** : Only English or Number is allowed in the file path!
 
 ## Replaying a sample proof
 
 Then, you can load an example proof. There are several examples in the file Example.v. Just use the CoqIDE to open that file and check the proof. The success proof of a program will be as follows.
 
-<img src="Ex.png" alt="avatar" style="zoom:30%;" />
+<img src="Ex.png" alt="avatar" style="zoom:40%;" />
 
