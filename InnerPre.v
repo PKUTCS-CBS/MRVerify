@@ -4,7 +4,7 @@ This file describes the representation and properties of inner-heap predicates.
 
 Author: Bowen Zhang.
 
-Date : 2022.01.06
+Date : 2022.08.03
 *)
 
 Set Implicit Arguments.
