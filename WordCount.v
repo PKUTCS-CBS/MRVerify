@@ -336,4 +336,4 @@ Proof.
   rewrite hstar_hpure_iff.
   splits*. rewrite~ hbstar_comm.
 Qed.
-
+ 
