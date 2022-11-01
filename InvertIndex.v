@@ -141,5 +141,5 @@ Proof.
   apply iiorgan_diff in H.
   rewrite <- H. applys himpl_refl.
 Qed.
-
+ 
 
