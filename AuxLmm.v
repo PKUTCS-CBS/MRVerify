@@ -184,7 +184,7 @@ Lemma diff_3_bool : forall n1 n2 n3,
 /\ neqword (n2,1) (n2,1) = false
 /\ neqword (n3,1) (n3,1) = false.
 Proof. introv. intros (H1&H2&H3). splits*. Qed.
-
+ 
 Lemma shuffle_diff : forall (n1 n2 n3:int),
   diff_each_3 n1 n2 n3 ->
   wordshuffle ((n1,1)::(n2,1)::(n3,1)::(n1,1)::(n2,1)::nil) =
