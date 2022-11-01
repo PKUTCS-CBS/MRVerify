@@ -4,7 +4,7 @@ This file describes the representation and properties of CBS-heap predicates.
 
 Author: Bowen Zhang.
 
-Date : 2022.01.06
+Date : 2022.10.26
 *)
 
 Set Implicit Arguments.
